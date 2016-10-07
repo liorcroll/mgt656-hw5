@@ -11,7 +11,4 @@ app.get('/nickname', function(request, response){
 
 
 
-app.listen(
-    process.env.PORT || 4000,
-    process.env.IP || 'localhost'
-    );
+app.listen(process.env.PORT || 4000);
